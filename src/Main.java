@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CriadorDePersonagem criador = new CriadorDeLadino();
+        criador.criarPersonagem();
+
+        System.out.println();
+
+        criador = new CriadorDePaladino();
+        criador.criarPersonagem();
+
     }
 }
